@@ -3,3 +3,6 @@ Reproduction of Gamma VAE from scratch -- I coded things up based on the paper 2
 
 I will try to clean it up more and solve LBFGS issue. For now there is a [google colab](https://colab.research.google.com/drive/14M0guLIVqk6CYrUvAFhiNBR8yu5wjwEx?authuser=5#scrollTo=LNLpustWq5ly) linked
 
+
+
+Note Adam and SGD do not optimize speech well. We found PSGD does a really good job optimizing NNs for use with speech models. 
