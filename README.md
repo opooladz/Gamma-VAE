@@ -13,16 +13,14 @@ Note Adam and SGD do not optimize speech well. We found PSGD does a really good 
 
 ## Resynthesized Spectrogram:
 
-![download](https://github.com/opooladz/Gamma-VAE/assets/16969636/dda25861-178b-4537-9142-15f64559e737)
-
-note i did not decay lr of optimizer or do anything fancy. the results in the paper were better due to these adjustments but this will give a good base proof of concept. 
+![download](https://github.com/opooladz/Gamma-VAE/assets/16969636/dda25861-178b-4537-9142-15f64559e737) 
 
 
 ## architecure changes 
 
 1D conv for encoder and 1D deconv for decoder will improve these results a bit
 
-## Optimizing Griff Lim over STOI improves phase over what was in the origional paper 
+## (2024) Optimizing Griff Lim over STOI instead of SNR improves phase over what was in the origional paper 
 
 Consider weights of model [here](https://drive.google.com/drive/folders/1PyBuKEeM6cwKvgQGJ7qELObzZ1teLgPj?usp=sharing)
 
