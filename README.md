@@ -21,3 +21,11 @@ note i did not decay lr of optimizer or do anything fancy. the results in the pa
 ## architecure changes 
 
 1D conv for encoder and 1D deconv for decoder will improve these results a bit
+
+## Optimizing Griff Lim over STOI improves phase over what was in the origional paper 
+
+Consider weights of model [here](https://drive.google.com/drive/folders/1PyBuKEeM6cwKvgQGJ7qELObzZ1teLgPj?usp=sharing)
+
+You can also consider a snipit of [re-synthesized speech](https://drive.google.com/file/d/1-HL_5xAfeRmd7ugTAlMRh0hUP9OZGuOy/view?usp=drive_link)
+
+
