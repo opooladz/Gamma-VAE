@@ -25,10 +25,5 @@ Note Adam and SGD do not optimize speech well. We found PSGD does a really good 
 
 1D conv for encoder and 1D deconv for decoder will improve these results a bit. I will try to update if I have time. 
 
-## (2024) Optimizing Griff Lim over STOI instead of SNR improves phase over what was in the origional paper 
 
-Consider weights of model [here](https://drive.google.com/drive/folders/1PyBuKEeM6cwKvgQGJ7qELObzZ1teLgPj?usp=sharing)
-
-You can also consider a snipit of [re-synthesized speech](https://drive.google.com/file/d/19Hekb1j9RE5QgPE6J6TAVHreqAClzkta/view?usp=drive_link)
-Given that this is the [origional speech](https://drive.google.com/file/d/17kK84dP9aiRN6e9Cab659HTkzHnECICO/view?usp=drive_link)
 
